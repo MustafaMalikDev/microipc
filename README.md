@@ -74,7 +74,7 @@ You can see the action was executed and simulated successfully because the secon
 <img src="./screenshots/destroy.png"/>
 <img src="./screenshots/queue_destroy.png"/>
 
-Running the `r <serialised_structure> command will tell the Kernel to first lookup the process of port 8080 inside the process table. If it does exist, it will be destroyed. However, if it does not exist inside the process table but inside a mailbox queue, that queue is destroyed. If there are multple mailbox queues with the same port, all those queues are destroyed.
+Running the `r <serialised_structure>` command will tell the Kernel to first lookup the process of port 8080 inside the process table. If it does exist, it will be destroyed. However, if it does not exist inside the process table but inside a mailbox queue, that queue is destroyed. If there are multple mailbox queues with the same port, all those queues are destroyed.
 
 As you can see the operation successfully executed because all the first and second slots (each represent a mailbox queue) are now empty.
 
