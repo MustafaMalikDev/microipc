@@ -24,7 +24,7 @@
 int main(void) {
     signal(SIGINT, mipc_socket_stop);
 
-    // struct mipc_process_request_t res = mipc_process_deserialise("{.message=hello world,.pid=69420,.port=8080}");
+    // struct mipc_process_request_t res = mipc_process_deserialise("{.message=hello world,.pid=1234,.port=8080}");
     // println(res.message);
     // printf("%d\n", res.pid);
     // printf("%d\n", res.port);
