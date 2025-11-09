@@ -112,7 +112,7 @@ I've successfully designed and implemented the system myself to demonstrate unde
 
 ### Approaches
 
-- Multiple client handling achieved using Kernel Queue Datastructure (and systemcalls)
+- Multiple client handling achieved using Kernel Queue Data structure (and systemcalls)
 - Sorting and Queue Dispatching
 - Parsing
 - Memory
@@ -125,7 +125,7 @@ I've also done my best to keep it simplified with abstracting but not over doing
 
 ## Final Notes
 
-Plesae remember this project is to demonstrate skills and represents an educational understanding of how IPC Message Passing works. Please do not use this in a production environment as this is was designed for simplicity and learning.
+Plesae remember this project is to demonstrate skills and represents an educational understanding of how IPC Message Passing works. Please do not use this in a production environment as this was designed for simplicity and learning.
 
 ## License and Credits
 Developed by Mustafa Malik
